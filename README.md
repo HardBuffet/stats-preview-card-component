@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/statspreviewcardcomponent-with-sass-and-bem-d0Hpmza6Wi)
 - Live Site URL: [GitHub Pages](https://hardbuffet.github.io/stats-preview-card-component/)
 
 ## My process
