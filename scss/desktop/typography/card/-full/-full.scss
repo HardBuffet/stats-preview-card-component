@@ -1,0 +1,6 @@
+.card {
+  &-full {
+    @include flex($dir: true, $dirVal: row);
+    width: 75vw;
+  }
+}

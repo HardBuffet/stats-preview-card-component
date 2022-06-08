@@ -27,13 +27,18 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub Pages]()
+- Live Site URL: [GitHub Pages](https://hardbuffet.github.io/stats-preview-card-component/)
 
 ## My process
 
 ### Built with
 
--
+- Semantic HTML5 markup
+- Flexbox
+- PUG
+- SASS
+- BEM
+- Mobile-first workflow
 
 ## Author
 

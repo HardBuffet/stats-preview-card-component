@@ -1,0 +1,17 @@
+.card {
+  &-simple {
+    &__desc {
+      line: {
+        height: 1.7rem;
+      }
+      font: {
+        size: 0.87rem;
+        size: clamp(0.87rem, 0.7075rem + 0.325vw, 1rem);
+      }
+      margin: {
+        right: 0rem;
+        right: clamp(0rem, -3.90625rem + 7.8125vw, 3.125rem);
+      }
+    }
+  }
+}

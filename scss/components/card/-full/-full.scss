@@ -1,0 +1,5 @@
+.card {
+  &-full {
+    @include flex($dir: true);
+  }
+}

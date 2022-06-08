@@ -1,14 +1,24 @@
 // ****************************************************************************
-// *                               001.#CARD                                  *
+// *                               001.#CARD-SIMPLE                          *
 // ****************************************************************************
 .card {
-  width: 330px;
-  background: $cardBg;
-  overflow: hidden;
+  &-simple {
+    text: {
+      align: initial;
+    }
+    flex-basis: 100%;
+    padding: {
+      inline: 2rem;
+      inline: clamp(2rem, -0.5rem + 5vw, 4rem);
+      block: 1.3rem;
+      block: clamp(1.3rem, -0.825rem + 4.25vw, 3rem);
+    }
+  }
 }
 
 // ****************************************************************************
 // *                               002.#IMPORT RULES                          *
 // ****************************************************************************
-@import "-simple/-simple";
-@import "-full/-full";
+@import "__title/__title";
+@import "__desc/__desc";
+@import "__stats/__stats";

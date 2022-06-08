@@ -1,0 +1,10 @@
+.card {
+  &-simple {
+    &__title {
+      font: {
+        size: 1.4rem;
+        size: clamp(1.4rem, 0.1499999999999999rem + 2.5vw, 2.4rem);
+      }
+    }
+  }
+}

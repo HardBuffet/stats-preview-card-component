@@ -1,0 +1,8 @@
+.stats {
+  &__title {
+    font: {
+      size: 0.7rem;
+      size: clamp(0.7rem, 0.51rem + 0.37vw, 0.85rem);
+    }
+  }
+}

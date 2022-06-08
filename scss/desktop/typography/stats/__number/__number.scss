@@ -1,0 +1,8 @@
+.stats {
+  &__number {
+    font: {
+      size: 1.15rem;
+      size: clamp(1.15rem, 0.46rem + 1.38vw, 1.7rem);
+    }
+  }
+}

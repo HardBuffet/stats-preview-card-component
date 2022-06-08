@@ -1,14 +1,18 @@
 // ****************************************************************************
-// *                               001.#CARD                                  *
+// *                               001.#STATS                          *
 // ****************************************************************************
-.card {
-  width: 330px;
-  background: $cardBg;
-  overflow: hidden;
+.stats {
+  @include flex($dir: true, $dirVal: row);
+  gap: 1.25rem;
+  gap: clamp(1.25rem, -1.69rem + 5.88vw, 3.6rem);
+  margin: {
+    top: 2rem;
+    top: clamp(2rem, -0.5rem + 5vw, 4rem);
+  }
 }
 
 // ****************************************************************************
 // *                               002.#IMPORT RULES                          *
 // ****************************************************************************
-@import "-simple/-simple";
-@import "-full/-full";
+@import "__number/__number";
+@import "__title/__title";
