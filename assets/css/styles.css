@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #090b1a;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 0.938rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.38rem + 0.5vw, 1.85rem);
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sr-only {
+  position: fixed;
+  left: -10000vw;
+  top: -10000vh;
+  color: transparent;
+  background: transparent;
+  z-index: -999;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #090b1a;
+  color: white;
+  min-height: 100vh;
+}
+
+.page__attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.attribution {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 0.25em;
+}
+
+.attribution__link {
+  color: #a953ff;
+}
+
+.attribution__link_hover:hover {
+  color: red;
+}
+
+.attribution__note {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stats__col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stats__number {
+  color: white;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.stats__title {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.7rem;
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1px;
+}
+
+.card {
+  width: 330px;
+  background: #1b1938;
+  overflow: hidden;
+}
+
+.card-simple {
+  text-align: center;
+  padding-inline: 2em;
+  padding-block: 1.3em 2.3em;
+}
+
+.card-simple__title {
+  font-size: 1.7rem;
+}
+
+.card-simple__desc {
+  line-height: 1.5rem;
+}
+
+.card-simple__stats {
+  margin-top: 2em;
+}
+
+.img-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.img-box__overlay {
+  inset: 0;
+  background: #5f0499;
+  position: absolute;
+  z-index: 555;
+  opacity: 0.5;
+}
+
+.img-box__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.utilities_bg_medium-grey {
+  background: #333;
+}
+
+.utilities_color_orange {
+  color: #fb7413;
+}
+
+.utilities_color_soft-violet {
+  color: #aa5cdb;
+}
+
+.utilities_pad-1 {
+  padding-block: 0.25em;
+  padding-inline: 1.2em;
+}
+
+.utilities_radius-1 {
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

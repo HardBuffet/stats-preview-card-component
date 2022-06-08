@@ -1,0 +1,5 @@
+.stats {
+  &__col {
+    @include flex($dir: true, $gap: true, $gapVal: 5px);
+  }
+}

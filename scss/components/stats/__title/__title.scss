@@ -1,0 +1,12 @@
+.stats {
+  &__title {
+    color: $statsTitleColor;
+    font: {
+      size: .7rem;
+      family: $secondaryFont;
+    }
+    letter: {
+      spacing: 1px;
+    }
+  }
+}

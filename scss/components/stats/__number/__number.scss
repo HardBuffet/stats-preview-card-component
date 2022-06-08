@@ -1,0 +1,9 @@
+.stats {
+  &__number {
+    color: $statsNumberColor;
+    font: {
+      size: 1.35rem;
+      weight: $fw-700;
+    }
+  }
+}

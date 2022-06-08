@@ -1,0 +1,11 @@
+.img {
+  &-box {
+    &__overlay {
+      inset: 0; // x && y: 100%;
+      background: $imgBoxOverlayBg;
+      position: absolute;
+      z-index: $gamma;
+      opacity: .5;
+    }
+  }
+}

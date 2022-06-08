@@ -9,12 +9,39 @@ html(lang='en')
     script(src="js/script.js" defer)
   body.page
     header
-      h1.sr-only
-  //-     Get insights that help your business grow.
-
-  //- Discover the benefits of data analytics and make better decisions regarding revenue, customer
-  //- experience, and overall efficiency.
-
-  //- 10k+ companies
-  //- 314 templates
-  //- 12m+ queries
+      h1.sr-only Grow your business with us
+    main
+      .card.utilities_radius-1
+        picture.img-box
+          source(srcset="images/image-header-desktop.jpg" media="(min-width: 800px)")
+          img.img-box__img(src="images/image-header-mobile.jpg" alt="" width="654" height="480")
+          .img-box__overlay
+        .card.card-simple
+          h2.card-simple__title Get
+            |
+            |
+            span.utilities_color_soft-violet insights
+            |
+            | that help your business grow.
+          p.card-simple__desc Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+          .stats.card-simple__stats
+            .stats__col
+              p.stats__number 10k+
+              p.stats__title COMPANIES
+            .stats__col
+              p.stats__number 314
+              p.stats__title TEMPLATES
+            .stats__col
+              p.stats__number 12M+
+              p.stats__title QUERIES
+    footer.attribution.page__attribution
+      p.attribution__note Challenge by
+        |
+        |
+        a.attribution__link.attribution__link_hover(href="https://www.frontendmentor.io?ref=challenge" target="_blank")
+          | Frontend Mentor
+      p.attribution__note Coded by
+        |
+        |
+        a.attribution__link.attribution__link_hover(href="https://www.frontendmentor.io/profile/HardBuffet")
+          | HardBuffet
